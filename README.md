@@ -15,3 +15,19 @@ The following is a demo, where a little guy walks around a maze, which is render
 ./maze.py
 ```
 
+This maze is generated from a 2 dimensional array of numbers, where '1' represent walls, and the '0' represent passages.
+
+```python
+matrix = [
+            [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+            [ 1, 0, 0, 1, 0, 0, 0, 0, 1, 1 ],
+            [ 1, 1, 0, 1, 0, 1, 1, 0, 1, 1 ],
+            [ 1, 1, 0, 0, 0, 0, 1, 0, 1, 1 ],
+            [ 1, 1, 1, 1, 0, 1, 1, 0, 0, 1 ],
+            [ 1, 0, 0, 1, 0, 1, 1, 1, 0, 1 ],
+            [ 1, 0, 1, 0, 0, 1, 1, 1, 0, 1 ],
+            [ 1, 0, 0, 0, 1, 1, 0, 0, 0, 1 ],
+            [ 1, 1, 1, 0, 0, 0, 0, 1, 1, 1 ],
+            [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+         ]
+```
